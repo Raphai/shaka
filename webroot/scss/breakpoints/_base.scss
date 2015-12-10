@@ -1,12 +1,12 @@
 /*********************
 GENERAL STYLES
 *********************/
-.body{
+body{
   font-family: "",sans-serif;
   font-weight: 200;
   font-size:1em;
   line-height: 1;
-  background-color: white;
+  background: #e6e6e6;
   color: black;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -181,9 +181,28 @@ NAV
 
   }
 }
+
+/******************************************************************
+.container
+******************************************************************/
+.container{
+ background: white;
+  max-width: 100%;
+  //-moz-box-shadow: 0px 0px 10px 0px #656565;
+  //-webkit-box-shadow: 0px 0px 10px 0px #656565;
+  //-o-box-shadow: 0px 0px 10px 0px #656565;
+  //box-shadow: 0px 0px 10px 0px #656565;
+  //filter:progid:DXImageTransform.Microsoft.Shadow(color=#656565, Direction=NaN, Strength=10);
+  ////-moz-border-radius:0 0 10px 10px;
+  ////-webkit-border-radius: 10px;
+  ////border-radius:0 0 10px 10px;
+}
 /******************************************************************
 PAGE ACCUEIL
 ******************************************************************/
 .wrapper-main{
-  margin:44px 0 0 0;
+  margin:38px 0 0 0;
+}
+.wrapper-content{
+  padding: 20px 0;
 }

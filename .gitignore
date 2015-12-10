@@ -1,5 +1,4 @@
-/vendor/*
-/config/app.php
 /tmp/*
 /logs/*
-/logs/*
+.idea
+/webroot/scss/.sass-cache

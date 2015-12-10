@@ -12,15 +12,18 @@
 <?php echo $this->element('menu'); ?>
 
     <div class="wrapper-main">
+        <div class="container">
+            <div class="wrapper-content">
+                <article class="slider-accueil">
+                    <h1 class="title">ShakaSchool page: accueil</h1>
+                </article>
 
-        <article class="slider-accueil">
-            <h1>ShakaSchool École de conduite</h1>
-        </article>
+                <aside class="">
 
-        <aside class="services-accueil">
+                </aside>
 
-        </aside>
+                <?php echo $this->element('footer'); ?>
 
-        <?php echo $this->element('footer'); ?>
-
+            </div>
+        </div>
     </div> <!--END .WRAPPER-MAIN-->
